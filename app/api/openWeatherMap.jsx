@@ -12,8 +12,6 @@ module.exports = {
       if (res.data.cod && res.data.message) {
         throw new Error(res.data.message);
       } else {
-        console.log(res.data.name);
-        //return res.data.main.temp;
         return {
           location: res.data.name,
           temp: res.data.main.temp
