@@ -7,13 +7,13 @@ var About = (props) => {
       <p>This is a weather application build on React..</p>
       <p>
         Here are some of the tools used:
-        <ul>
-          <li><a href="https://facebook.github.io/react">React</a> - Javascript framework used.</li>
-        </ul>
-        <ul>
-          <li><a href="http://oepnweathermap.org">Open Weather Map</a> - Open Weather Map API is used to search for the weather data by city name.</li>
-        </ul>
       </p>
+      <ul>
+        <li><a href="https://facebook.github.io/react">React</a> - Javascript framework used.</li>
+      </ul>
+      <ul>
+        <li><a href="http://oepnweathermap.org">Open Weather Map</a> - Open Weather Map API is used to search for the weather data by city name.</li>
+      </ul>
     </div>
   );
 }
